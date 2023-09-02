@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos Generales */
+
+.Image-container{
+    display: flex;
+}
+
+.Image-container img {
+    width: 100%;
+}
+
+/* Estilos Header*/
+header {
+    background: #6b2f2f;
+    padding: 10px 50px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#logo img {
+    border-radius: 100%;
+    border:2px solid;
+}
+
+/* Estilos de Hero */
+
+#Hero {
+    position: relative;
+}
+
+#Hero #Oyuko {
+    display: inline-block;
+    width: 100%;
+}
+
+#Hero #Oyuko img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#Hero .Informa{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: rgb(48, 4, 33);
+    padding: 0px 50px;
+}
+#Hero .Informa #Portada {
+width: 500px;
+}
+
+#Hero .Informa #Portada img {
+    border-radius: 50%;
+    }
+
+#Hero .Informa .Información-texto {
+    margin-left: 20px;
+    font-weight: bold;
+} 
+
+#Hero .Informa .Información-texto span{
+    display: inline-block;
+    color: blue;
+    margin-bottom: 30px;
+} 
